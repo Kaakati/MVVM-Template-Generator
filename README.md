@@ -1,9 +1,12 @@
-![Swift_Version](https://img.shields.io/badge/Swift-4.2-orange.svg)
+<center>
+<img src="/assets/logo.png" width="200" />
+<br/>
+<img src="https://img.shields.io/badge/Swift-4.2-orange.svg" />
+</center>
 
 > Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
 
 ----
-
 Are you new to MVVM Design Pattern? Want to Learn it But feel overwhelmed of all the files you have to create?
 
 ## Generated files
@@ -28,14 +31,10 @@ Do not Import UIKit to the viewModel.
 ## How to install
 
 #### Using script (easy)
-Only need execute this command in terminal:
-```swift
+Download the Repo to your computer, open the folder in Terminal, execute this command:
+```shell
 sudo swift install.swift
 ```
-
-You should be this output message:
-
-![](assets/terminal.png)
 
 If all it's ok you now could find your template in Xcode.
 
@@ -44,10 +43,12 @@ Go to Application folder, browse to the Xcode application icon. Right-click it a
 `Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application` and add "MVVM Module.xctemplate" file. Now you can find your template in Xcode.
 
 ## Easy to use
-![](/assets/wizard.png)
+![](/assets/wizard-1.png)
+
+![](/assets/wizard-2.png)
 
 ## MVVM diagram overview
-![Preview](/assets/MVVM_diagram.png)
+![Preview](/assets/MVVM_Diagram.png)
 
 ## What is MVVM?
 MVVM is not a framework but an approach to iOS application architecture, which stands for:
