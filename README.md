@@ -20,7 +20,7 @@ This template generates all files that you need to create a new MVVM module. All
 | `YourFileNameUI.swift`   | UIView     | This is where your design layout should be.  |
 | `YourFileNameView.swift`    | View       | If you use Storyboard, Link this to it and delete UI file.   |
 | `YourFileNameViewModel.swift`    | ViewModel | This is what will communicate with the Datasource & View.      |
-| `YourFileNameModel.swift`    | Model     | This is where to write your Model.    |
+| `YourFileName.swift`    | Model     | This is where to write your Model.    |
 
 #### Useage
 ```
