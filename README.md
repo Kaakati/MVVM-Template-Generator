@@ -1,8 +1,8 @@
-<center>
+<p align="center">
 <img src="/assets/logo.png" width="200" />
 <br/>
 <img src="https://img.shields.io/badge/Swift-4.2-orange.svg" />
-</center>
+</p>
 
 > Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
 
