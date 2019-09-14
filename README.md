@@ -7,13 +7,10 @@
 > Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
 
 ----
-Are you new to MVVM Design Pattern? Want to Learn it But feel overwhelmed of all the files you have to create?
+>Are you new to MVVM Design Pattern? Want to Learn it But feel overwhelmed of all the files you have to create?
 
-## Generated files
-This template generates all files that you need to create a new MVVM module. All generated code is Swift 4.2 compatible.
-
-#### The Fullname dropdown will Generate full filenames with Generic Functions.
-#### Other Dropdown Selections With OR Without Generic Functions.
+## What kind of files the template will generate?
+>This template generates all files that you need to create a new MVVM module. All generated code is Swift 4.2 compatible. `The UIView have a TableView implemented to demonastrate the data flow, you can either keep the TableView or replace with your own design.`
 
 | File Name | Acts As | Description |
 | :---         |     :---      |          :--- |
@@ -21,12 +18,6 @@ This template generates all files that you need to create a new MVVM module. All
 | `YourFileNameView.swift`    | View       | If you use Storyboard, Link this to it and delete UI file.   |
 | `YourFileNameViewModel.swift`    | ViewModel | This is what will communicate with the Datasource & View.      |
 | `YourFileName.swift`    | Model     | This is where to write your Model.    |
-
-#### Useage
-```
-Make Sure to initialize your viewModel and DataSource and set them to their designated variables.
-Do not Import UIKit to the viewModel.
-```
 
 ## How to install
 
@@ -38,11 +29,19 @@ sudo swift install.swift
 
 If all it's ok you now could find your template in Xcode.
 
-### Manual
+#### Useage
+```
+Make Sure to initialize your viewModel and DataSource and set them to their designated variables.
+Do not Import UIKit to the viewModel.
+```
+
+### Manual Installation
 Go to Application folder, browse to the Xcode application icon. Right-click it and choose 'Show Package Contents'. Then browse to:
 `Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application` and add "MVVM Module.xctemplate" file. Now you can find your template in Xcode.
 
-## Easy to use
+## How it works?
+Open xcode, Create a new group in your project for your module and named it e.g. `Profile Module` then create a new file inside that folder and select MVVM Module, type the name, and your files will be generated.
+
 ![](/assets/wizard-1.png)
 
 ![](/assets/wizard-2.png)
