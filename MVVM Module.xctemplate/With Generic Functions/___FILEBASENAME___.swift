@@ -12,8 +12,10 @@
 struct  ___VARIABLE_productName:identifier___ {
     typealias didFetchSuccess = (___VARIABLE_productName:identifier___)->()
     typealias didFailWithError = (Error?) -> ()
-
+    
+    // Your Model Structure
     var id : Int?
+    var name : Int?
     
     func didFetch(withSuccess: @escaping didFetchSuccess, withError: @escaping didFailWithError) {
         withSuccess(___VARIABLE_productName:identifier___())

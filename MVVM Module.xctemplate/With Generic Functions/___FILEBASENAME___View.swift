@@ -45,10 +45,3 @@ extension ___VARIABLE_productName:identifier___View : ___VARIABLE_productName:id
         viewModel.didReceiveUISelect(object: object)
     }
 }
-
-extension ___VARIABLE_productName:identifier___View : ___VARIABLE_productName:identifier___UIDataSource {
-    // Set Object on ui
-    func objectFor(view: ___VARIABLE_productName:identifier___UI) -> ___VARIABLE_productName:identifier___ {
-        return ___VARIABLE_productName:identifier___()
-    }
-}

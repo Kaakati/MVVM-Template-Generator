@@ -14,10 +14,6 @@ protocol ___VARIABLE_productName:identifier___UIDelegate {
     func uiDidSelect(object: ___VARIABLE_productName:identifier___)
 }
 
-protocol ___VARIABLE_productName:identifier___UIDataSource {
-    func objectFor(view: ___VARIABLE_productName:identifier___UI) -> ___VARIABLE_productName:identifier___
-}
-
 class ___VARIABLE_productName:identifier___UI : UIView {
     var delegate: ___VARIABLE_productName:identifier___UIDelegate!
     var dataSource: ___VARIABLE_productName:identifier___UIDataSource!
@@ -74,11 +70,11 @@ extension ___VARIABLE_productName:identifier___UI {
 
 extension ___VARIABLE_productName:identifier___UI: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 0
+        return 1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 15
+        return 8
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
