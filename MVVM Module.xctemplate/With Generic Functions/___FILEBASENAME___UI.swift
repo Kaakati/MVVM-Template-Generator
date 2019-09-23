@@ -16,7 +16,6 @@ protocol ___VARIABLE_productName:identifier___UIDelegate {
 
 class ___VARIABLE_productName:identifier___UI : UIView {
     var delegate: ___VARIABLE_productName:identifier___UIDelegate!
-    var dataSource: ___VARIABLE_productName:identifier___UIDataSource!
     
     var object : ___VARIABLE_productName:identifier___?
     var cellIdentifier = "___VARIABLE_productName:identifier___CellId"
