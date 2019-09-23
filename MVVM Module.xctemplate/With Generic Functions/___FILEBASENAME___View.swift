@@ -31,7 +31,6 @@ class ___VARIABLE_productName:identifier___View: UIViewController, ___VARIABLE_p
     
     override func loadView() {
         ui.delegate = self
-        ui.dataSource = self
         view = ui
     }
     
