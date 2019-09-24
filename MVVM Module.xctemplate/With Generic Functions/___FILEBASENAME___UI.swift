@@ -45,13 +45,7 @@ class ___VARIABLE_productName:identifier___UI : UIView {
 }
 
 extension ___VARIABLE_productName:identifier___UI {
-    
-    /// Reloading the data and update the ui according to the new data
-    func reloadData() {
-        // Should update UI
-        self.object = dataSource?.objectFor(view: self)
-    }
-    
+
     private func setupUIElements() {
         // arrange subviews
         addSubview(tableView)
