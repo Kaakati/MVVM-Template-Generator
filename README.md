@@ -4,6 +4,8 @@
 <img src="https://img.shields.io/badge/Swift-4.2-orange.svg" />
 </p>
 
+[![Visits Badge](https://badges.pufler.dev/visits/kaakati/MVVM-Template-Generator)](https://badges.pufler.dev)
+
 > Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
 
 ----
